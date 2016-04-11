@@ -16,6 +16,7 @@
     "systemjs": "0.19.6"
   },
   "devDependencies": {
+    "angular2-spotify": "^1.0.1",
     "gulp": "3.9.0",
     "gulp-rename": "1.2.2",
     "gulp-traceur": "0.17.2",
