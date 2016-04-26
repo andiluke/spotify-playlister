@@ -1,1 +1,8 @@
-<div>This is the masthead template file</div>
+<div>This is the masthead template file
+<ul>
+	<li *ngFor="#navItem of navItems">
+		<a href="{{navItem.link}}">{{navItem.label}}</a>
+	</li>
+</ul>
+
+</div>
